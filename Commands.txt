@@ -1,0 +1,33 @@
+ls - list files within directory
+
+curl - used to download files from the web
+
+date - Gives current date and time
+
+expr 2+2 - is a simple calculator. Outputs 4
+
+host udacity.com - Looks up name in Domain Name Service (DNS) to find ip address
+and tells what service handles the mail.
+
+echo You rock - prints You rock
+
+hostname - prints the Vagrant VM's name
+
+uname - prints operating system name
+
+bash --version - tells you what version # of bash shell you have installed 
+and provides copyright info
+
+history - all commands you've run previously
+
+rm - delete file from current directory
+
+ctrl+r - reverse-i-search: this allows you to search all command you typed long ago and can help you find them.
+
+unzip - unzips a file
+
+cat - prints out contents of files. Give multiple file names and it will combine their contents and output the results
+
+wc - word count. Tells how many lines, words and bites are in a file.
+
+diff - compares files and shows how they differ. The angle bracket points in the direction of the file that includes a change
