@@ -32,4 +32,4 @@ wc - word count. Tells how many lines, words and bites are in a file.
 
 diff - compares files and shows how they differ. The angle bracket points in the direction of the file that includes a change
 
-man - stands for manual. Use this before a command to get the manual page for the command. Options surrounded by [] are optional. 
+man - stands for manual. Use this before a command to get the manual page for the command. Options surrounded by [] are optional. Command line flags are case sensitive.
