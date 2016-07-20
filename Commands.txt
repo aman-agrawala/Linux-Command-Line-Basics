@@ -44,5 +44,32 @@ bc - simple calculator program.
 
 less - full screen interactive program. Just type in "less filename". Type /word to search for all occurences of the word "word". Replace word as desired. Search terms are case sensitive. 
 
-vim, emacs, joe, nano - terminal based text editors. Built into ubuntu. In nano the "^" stands for the ctrl key. Justify means to re-wrap text to fit on screen. Writeout means to save file
+vim, emacs, joe, nano - terminal based text editors. Built into ubuntu. In nano the "^" stands for the ctrl key. Justify means to re-wrap text to fit on screen. Writeout means to save file.
+
+
+#Linux Filesystem:
+
+filesystem stores various kinds of objects.
+Two most common are:
+	file - like text file, images, program, etc
+	directories - named containers that cna hold files, directories, other objects.
+
+Files and directories have names called filenames
+Filenames can contain any character except the '/'.
+When you write a filename thatcontains spaces or punctuation such as !$#()[]%&; (including space) put the filename in 'quotes' or precede each special character with \
+Example: 
+Great Filename! can be either 'Great Filename!' (called quoting) or Great\ Filename\! (called escaping)
+
+REMEMBER LINUX uses / to SEPARATE DIRECTORIES - WINDOWS uses \
+
+pwd - stands for print working directory
+
+a fullpath is called the absolute path. This means that it tells every step that needs to be taken from the root (the absolute beginning of the filesystem)
+
+a relative path: is the location relative to current working directory. Does not start with a /
+
+In directories .. moves you up one directory and . refers to the current directory. 
+~ refers to home directory
+
+cd by itself takes you to home directory
 
