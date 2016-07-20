@@ -75,8 +75,28 @@ cd by itself takes you to home directory
 
 mv source destination- moves files around, rename files, 
 
-cp source destination - can copy a file
+cp source destination - can copy a file. Just list all desired files first and the last directory is the destination always
 
 mkdir path - makes a new directory
 
 rmdir - removes directory (doesn't work if directory has files in it). If you want to remove a directory and all contents use: rm -r
+
+# Globbing
+globbing - matching files by name in unix shell
+
+* means anything fits even no characters.
+*pp* means any file with pp in it like pepper or ppl
+
+
+{options} - any file with those options
+app.{css,html} any files with .css or .html at the end
+
+? - matches any one character
+ls bea?.png will look for any interation of the word with the ? changed to a character like bear.png or bean.png
+
+[options] - list of characters inside square brackets matches anyone of those characters inside the brackets
+be[aeiou]r.png will match bear.png or beer.png
+
+Note filenames in linux are case sensitive and applies to globbing as well
+if you want both lower and upper case .jpg or .JPG then use *{jpg,JPG}
+
