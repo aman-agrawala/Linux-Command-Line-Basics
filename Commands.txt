@@ -73,3 +73,10 @@ In directories .. moves you up one directory and . refers to the current directo
 
 cd by itself takes you to home directory
 
+mv source destination- moves files around, rename files, 
+
+cp source destination - can copy a file
+
+mkdir path - makes a new directory
+
+rmdir - removes directory (doesn't work if directory has files in it). If you want to remove a directory and all contents use: rm -r
