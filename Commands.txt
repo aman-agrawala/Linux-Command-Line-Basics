@@ -33,3 +33,16 @@ wc - word count. Tells how many lines, words and bites are in a file.
 diff - compares files and shows how they differ. The angle bracket points in the direction of the file that includes a change
 
 man - stands for manual. Use this before a command to get the manual page for the command. Options surrounded by [] are optional. Command line flags are case sensitive.
+
+ctrl+c is the exit command
+
+ctrl+d is the end line command
+
+sort - sorts the input alphabetically. Press ctrl+d to send end line command have it execute the input.
+
+bc - simple calculator program.
+
+less - full screen interactive program. Just type in "less filename". Type /word to search for all occurences of the word "word". Replace word as desired. Search terms are case sensitive. 
+
+vim, emacs, joe, nano - terminal based text editors. Built into ubuntu. In nano the "^" stands for the ctrl key. Justify means to re-wrap text to fit on screen. Writeout means to save file
+
