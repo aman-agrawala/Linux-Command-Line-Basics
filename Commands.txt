@@ -75,7 +75,7 @@ cd by itself takes you to home directory
 
 mv source destination- moves files around, rename files, 
 
-cp source destination - can copy a file. Just list all desired files first and the last directory is the destination always
+cp source destination - can copy a file. Just list all desired files first and the last directory is the destination always.
 
 mkdir path - makes a new directory
 
@@ -99,4 +99,3 @@ be[aeiou]r.png will match bear.png or beer.png
 
 Note filenames in linux are case sensitive and applies to globbing as well
 if you want both lower and upper case .jpg or .JPG then use *{jpg,JPG}
-
